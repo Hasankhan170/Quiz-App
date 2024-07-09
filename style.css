@@ -8,5 +8,61 @@ body{
     align-items: center;
     height: 100vh;
     overflow: hidden;
-    background-color: rgb(255, 255, 255);
+    margin: 0%;
+}
+
+.quiz-container{
+    background-color: #ffffff99;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+    width: 600px;
+    overflow: hidden;
+}
+
+.quiz-header{
+    padding: 4rem;
+}
+
+h2{
+    padding: 2rem;
+    text-align: center;
+    margin: 0%;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+}
+
+ul li{
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+
+ul li label{
+    cursor: pointer;
+}
+
+button{
+    padding: 1.3rem;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(63, 252, 255);
+    color: #fff;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin: 1rem 0;
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+button:hover{
+    background-color: rgb(3, 163, 165);
+    color: #fff;
+}
+
+button:focus{
+    outline: none;
+    background-color: rgb(0, 194, 0);
 }
